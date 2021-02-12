@@ -5,6 +5,17 @@ HW05: Stuylin'
 2021-2-11
 */
 
-main {
-  background-color:light yellow
+body{
+	background-color: lightyellow;
+	text-align:center;
+}
+
+p, ol, ul{
+	width:500px;
+	padding-left:500px;
+	text-align:left;
+}
+
+header>ul{
+	font-style:italic;
 }
