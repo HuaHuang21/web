@@ -6,16 +6,47 @@ HW05: Stuylin'
 */
 
 body{
-	background-color: lightyellow;
+	background-color:lightgray;
 	text-align:center;
+	font-size:1.5em;
+	font-family:Comic Sans MS;
 }
 
 p, ol, ul{
-	width:500px;
+	width:750px;
 	padding-left:500px;
 	text-align:left;
 }
 
+header div {
+	background-color:white;
+	font-size:1.25em;
+	height:400px;
+	padding-top:50px;
+	position:relative;
+	background-image:url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-ms-fields-cookies-024-1544735513.jpg");
+	background-size:cover;
+}
+
+.header h1{
+	font-family:"Sofia", sans-serif;
+}
+
+.header p{
+	font-family:"Trirong", serif;
+	width:1000px;
+	padding-left:300px;
+	color:white;
+}
+
 header>ul{
 	font-style:italic;
+}
+
+a:hover{
+	color:yellow;
+}
+
+img {
+	width:1000px;
 }
